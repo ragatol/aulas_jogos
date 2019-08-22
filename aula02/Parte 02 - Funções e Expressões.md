@@ -47,7 +47,15 @@ Agora crie 3 linhas usando o if para ver se acontece o que você espera acontece
 
 ## ELSE
 
-O **else** (*senão* em inglês) permite que nós possamos escrever o que acontece caso o **if** anterior receba o valor **False**. Veja estes exemplos:
+O **else** (*senão* em inglês) permite que nós possamos escrever o que acontece caso o **if** anterior receba o valor **False**. Deve ser escrito da seguinte maneira:
+
+```python
+else: (lista de expressões)
+```
+
+O **else** deve obrigatoriamente vir depois de um **if**, não pode existir sozinho, e só existe 1 **else** para cada **if**.
+
+Veja estes exemplos:
 
 ```python
 # A)
@@ -73,7 +81,13 @@ Escreva no seu caderno o que você acha que vai ser escrito no computador em cad
 
 ## Sequência de comparações (elif)
 
-Às vezes, nós precisamos de fazer várias comparações para determinar o que fazer. Imagine que vamos fazer um programa que diga para nós algum ingrediente de uma comida. Como existem várias comidas diferentes, nós podemos verificar qual é linha por linha, usando uma mistura de **else e if** juntos, o **elif**:
+Às vezes, nós precisamos de fazer várias comparações para determinar o que fazer. Imagine que vamos fazer um programa que diga para nós algum ingrediente de uma comida. Como existem várias comidas diferentes, nós podemos verificar qual é linha por linha, usando uma mistura de **else e if** juntos, o **elif**.
+
+```python
+elif (expressão booleana): (lista de expressões)
+```
+
+Assim como o **else**, o **elif** só pode existir depois de um **if**, mas você pode ter vários deles para comparar vários valores diferentes! Veja o exemplo abaixo:
 
 ```python
 comida = ""
