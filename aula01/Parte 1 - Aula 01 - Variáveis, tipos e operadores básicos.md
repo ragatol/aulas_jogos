@@ -62,6 +62,7 @@ O tipo de valor é importante para saber qual tipo de operação podemos fazer c
 
 | Operador | Operação      | Exemplo                                                      | Tipo de valor aceito | Tipo de valor resultante |
 | -------- | ------------- | ------------------------------------------------------------ | -------------------- | ------------------------ |
+| =        | Atribuição    | variavel = valor                                             | qualquer             | qualquer                 |
 | +        | Adição        | 2 + 3 → 5<br />"Olá " + "mundo!" → "Olá mundo!"              | número ou string     | número ou string         |
 | -        | Subtração     | 3 - 2 → 1                                                    | número               | número                   |
 | *        | Multiplicação | 2 * 3 → 6                                                    | número               | número                   |

@@ -7,4 +7,4 @@ Repositório público com as aulas ministradas.
 ### Parte 1 - Introdução à Programação com Python
 
 - Aula 01 - Constantes, Variáveis, tipos de valores e operadores básicos;
-- 
+- Aula 02 - Funções e Expressões;
