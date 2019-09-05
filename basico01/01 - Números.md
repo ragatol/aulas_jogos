@@ -130,8 +130,7 @@ copia_da_idade = idade
 # c) Crie uma variável para guardar uma idade maior que a sua
 
 
-# d) Usando essa idade maior, vamos ver em qual ano você vai ter essa idade.
-# Para isso, subtraia a idade maior da sua idade, e some ao ano que você nasceu.
+# d) Agora subtraia a idade maior da sua idade, e some ao ano que você nasceu.
 # Use apenas as variáveis que você criou antes, e coloque o resultado em uma nova
 # variável!
 
@@ -140,13 +139,13 @@ copia_da_idade = idade
 # acordo com o nome delas, no lugar dos '0':
 copia_sua_idade = 0
 copia_ano_nascimento = 0
-copia_idade_no_furuto = 0
+copia_idade_maior = 0
 copia_ano_da_idade_no_futuro = 0
 
 ##### Agora EXECUTE O PROGRAMA COM F5 #####
 
 print("Você nasceu em {}, e hoje tem {} anos.".format(copia_ano_nascimento,copia_sua_idade))
-print("No ano de {}, você terá {} anos de idade!".format(copia_ano_da_idade_no_futuro,copia_idade_no_futuro))
+print("No ano de {}, você terá {} anos de idade!".format(copia_ano_da_idade_no_futuro,copia_idade_maior - copia_sua_idade))
 ```
 
 Pronto!
