@@ -46,36 +46,17 @@ casal = "Maria" + ' e ' + "José"
 mensagem = "Meu amigo é " + nome
 ```
 
-## Formatação
-
-Podemos usar algumas funções para transformar strings. Uma dela é transformar números em texto usando **str()** para poder usar o valor do número em uma concatenação ou comparação:
-
-```python
-"45" == str(45)
-'30' != str(20)
-"Minha idade é " + str(13) + " anos!"
-```
-
-Podemos usar uma string como um modelo para criar texto, deixando os espaços vagos com **{}**. Então, podemos colocar os valores dentro destes espaços vagos usando **format**:
-
-```python
-nome = "Joselito"
-pai = "José"
-mensagem = "Meu nome é {} e meu pai se chama {}!"
-mensagem_completa = mensagem.format(nome,pai)
-```
-
-Não se esqueça de testar!
-
 ## Mostrando um texto para o usuário
 
-Para mostrar um texto qualquer, usamos a função **print()**:
+Para mostrar um texto qualquer, usamos a função **print()**. Com print, podemos mostrar várias informações em uma linha usando várias partes, separadas por vírgula. Exemplos:
 
 ```python
 meu_nome = "Joselito"
 minha_idade = 33
-mensagem = "Tenho {} anos e meu nome é {}!"
-print(mensagem.format(minha_idade,meu_nome))
+print("Meu nome é",meu_nome)
+print("Minha idade é",minha_idade)
+amigo = "Ricardo"
+print("Meu nome é", meu_nome,"e meu amigo é",amigo)
 ```
 
 ## Exercício
