@@ -86,7 +86,7 @@ print("Meu nome é", meu_nome,"e meu amigo é",amigo)
 
 # a) A mensagem de apresentação que você criou antes:
 
-# b) Usando format, uma mensagem dizendo que ano você nasceu, sua idade atual
+# b) uma mensagem dizendo que ano você nasceu, sua idade atual
 # e quandos anos você terá em 2030 que você calculou antes:
 
 # c) Uma mensagem com o nome da sua mãe, e qual a fruta você acha que ela gosta:
