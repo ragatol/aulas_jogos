@@ -16,3 +16,13 @@
 
 
 
+## Nível 2
+
+### A) Pedir um número do usuário, e depois mostrar a mensagem 'É maior que 10!' se o número for maior que 10, ou 'Não é maior que 10!' caso contrário.
+
+### B) Perguntar dois valores para o usuário e mostrar para ele qual é o maior valor que ele informou.
+
+### C) Pedir a quantidade de maçãs que o usuário quer comprar. Para quantidades menores que uma dúzia, cobrar R$ 1,30 por maçã, senão cobrar R$ 1,00. Mostrar para o usuário a quantidade de maçãs compradas e o valor total da compra.
+
+### D) Perguntar dois valores para o usuário e mostrar eles em ordem crescente.
+
