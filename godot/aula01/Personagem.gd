@@ -1,5 +1,7 @@
 extends KinematicBody2D
 
+class_name Personagem
+
 # Declaração de variáveis
 var velocidade = 200
 var direcao = Vector2(0,0)
